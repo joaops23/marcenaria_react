@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;    
+}
+
+.header_navbar {
+    background-color: #e0deab;
+    --bs-bg-opacity: 1;
+    width: 100%;
+}
+
+
+.index_title {
+    padding-top: 2.5em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.index_title p {
+    clear:both;
+    padding: 1.5em;
+    line-height: 32px;
+    font-size: 32px;
+    width: auto;
+}
+
+#img_apresentacao_1 {
+    width: 80%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: -2px 2px 5px 3px #85685a;
+}
+
+.quebra_sessao_header {
+    padding-bottom: 4em;
+}
+.quebra_sessao {
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.quebra {
+    padding-bottom: 1em;
+}
+
+.text_marrom {
+    color: #85685a !important;
+}
+
+.text_verde_claro {
+    color: #e0deab !important;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+
+/* Estilização de cards */
+
+.cardDepoimento {
+    border-radius: 15% 15% 2% 2% !important;
+    box-shadow: 0px -5px 20px -1px #c0c0c0;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    width: 30%;
+}
+
+.containerCards {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.botaoOrcamento {
+    background-color: #cb8e5f !important;
+}
