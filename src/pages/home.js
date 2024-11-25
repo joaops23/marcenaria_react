@@ -7,6 +7,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import Cards from '../components/Cards';
 import BotaoOrcamento from '../components/BotaoOrcamento';
 import Titulo from '../components/Titulo';
+import Logo from '../components/Logo';
 class Home extends React.Component {
     render() {
         return (
@@ -14,6 +15,15 @@ class Home extends React.Component {
                 <Header></Header>
                 
                 <Container className='index_container'>
+                    
+                    <div className='row'>
+                        <div className='col text-center'>
+                            <Logo size='210'></Logo>
+                            <p className='h1 text-center text_marrom title'>Odara</p>
+                            <p className='h5 text-center text_marrom'>Móveis planejados</p>
+                        </div>
+                    </div>
+                    
                     <div className='row'>
                         <div className='index_title col-5'>
                             <p className='h2 text_marrom'>Marcenaria Sob Medida: Beleza e Funcionalidade em Cada Detalhe.</p>
