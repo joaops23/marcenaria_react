@@ -4,6 +4,8 @@ import Titulo from "../components/Titulo";
 import { Container } from "react-bootstrap";
 import ContactForm from "../components/ContactForm";
 import { FaWhatsapp } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
 
 export default class Contacts extends React.Component {
     render() {
@@ -25,8 +27,14 @@ export default class Contacts extends React.Component {
                     </div>
 
                     <div className="row">
-                        <div className="col-2 offset-md-2">
-                            <p><FaWhatsapp size="50px"/> - <span className="text-marrom">(11) 9 99999-9999 </span> </p>
+                        <div className="col-3 offset-md-2">
+                            <p><FaWhatsapp size="50px"/>&nbsp;<span className="text-marrom">+55 (11) 91655-0264</span> </p>
+                        </div>
+                        <div className="col-3">
+                            <p><MdOutlineEmail size="50px"/>&nbsp;<span className="text-marrom">odaraplanejados86@gmail.com</span> </p>
+                        </div>
+                        <div className="col-3">
+                            <p><FaLocationDot size="50px"/>&nbsp;<span className="text-marrom">Cotia - SP</span> </p>
                         </div>
                     </div>
                 </Container>
