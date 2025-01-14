@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Quicksand:wght@300..700&display=swap');
+@font-face {
+    font-family: "Merriweather";
+    src: url("fonts/Merriweather/Merriweather-Regular.ttf");
+}
 
+html {
+    width: 100% !important;
+}
 body {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Merriweather" !important;
     margin: 0;
     padding: 0;
-    background-color: #FAFAFA;    
 }
 
 .header_navbar {
@@ -90,4 +95,43 @@ body {
 .padding-form {
     padding-bottom: 2rem;
     margin:auto;
+}
+
+
+/* Carousel */
+.carousel_container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    float: left;
+    margin: auto;
+    justify-content: center;
+    background-color: #e0deab;
+    padding: 2%;
+}
+
+
+.imgCarousel {
+    max-width:1920px;
+    max-height:500px;
+    margin:auto; 
+    object-fit: contain; 
+}
+
+.carousel_item, .carousel_item > img {
+    width: 100%;
+
+}
+
+.carousel_item_content {
+    width: 70%;
+}
+
+.carousel_item_title {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
