@@ -8,6 +8,7 @@ import Cards from '../components/Cards';
 import BotaoOrcamento from '../components/BotaoOrcamento';
 import Titulo from '../components/Titulo';
 import Logo from '../components/Logo';
+import Contacts from './Contacts';
 class Home extends React.Component {
     render() {
         return (
@@ -47,7 +48,7 @@ class Home extends React.Component {
             
                     <div className='row'>
                         <Titulo title='Sobre nós'/>
-                        <p className='text-break fs-5 fw-light lh-lg'>&nbsp;&nbsp;Nos fundos de um quintal em Cotia-SP, Diego, um pai de família trabalhador, deu vida ao seu sonho de ter um negócio próprio. Com poucas ferramentas e muita determinação, ele transformou o pequeno espaço em uma oficina. Começou consertando móveis para vizinhos e logo conquistou sua comunidade com peças feitas com cuidado e alma.<br />&nbsp;&nbsp;Com o apoio da família e clientes, Diego expandiu sua marcenaria, que se tornou referência na região. Hoje, a Marcenaria dos Sonhos é um símbolo de trabalho duro e paixão, mantendo vivas as raízes simples de onde tudo começou.</p>
+                        <p className='text-break fw-light lh-lg text-about'>&nbsp;&nbsp;Nos fundos de um quintal em Cotia-SP, Diego, um pai de família trabalhador, deu vida ao seu sonho de ter um negócio próprio. Com poucas ferramentas e muita determinação, ele transformou o pequeno espaço em uma oficina. Começou consertando móveis para vizinhos e logo conquistou sua comunidade com peças feitas com cuidado e alma.<br />&nbsp;&nbsp;Com o apoio da família e clientes, Diego expandiu sua marcenaria, que se tornou referência na região. Hoje, a Marcenaria dos Sonhos é um símbolo de trabalho duro e paixão, mantendo vivas as raízes simples de onde tudo começou.</p>
                     </div>
 
                     <div className='row'>
@@ -61,20 +62,20 @@ class Home extends React.Component {
                     <div className='row'>
                         <Titulo title='Nossos Diferenciais'/>
 
-                        <div className='row gx-5'>
-                            <div class='col text-center'>
+                        <div className='row'>
+                            <div class='col text-center col-diferenciais'>
                                 <span><MdConstruction size='60'/></span>
-                                <p className='fs-5'>Materiais de alta qualidade.</p>
+                                <p className='text-diferenciais'>Materiais de alta qualidade.</p>
                             </div>
                             
-                            <div class='col text-center'>
+                            <div class='col text-center col-diferenciais'>
                                 <span><BsFillTelephoneFill size='60'/></span>
-                                <p className='fs-5'>Atendimento Personalizado.</p>
+                                <p className='text-diferenciais'>Atendimento Personalizado.</p>
                             </div>
 
-                            <div class='col text-center'>
+                            <div class='col text-center col-diferenciais'>
                                 <span><MdOutlineDesignServices size='60'/></span>
-                                <p className='fs-5'>Design funcional e sofisticado.</p>
+                                <p className='text-diferenciais'>Design funcional e sofisticado.</p>
                             </div>
                         </div>
                     </div>
@@ -97,8 +98,10 @@ class Home extends React.Component {
 
                     <div className='row quebra_sessao_header'>
                         <div className='col align-self-center'>
-                            <p className='h4 text-center text_marrom hover_underline quebra'>Pronto para transformar seu espaço? Vamos começar!</p>
+                            <p className='h4 text-center text_marrom hover_underline quebra'>Pronto para transformar seu espaço?</p>
+                            <p className='h4 text-center text_marrom hover_underline quebra'>Entre em contato conosco!</p>
                             <p className='text-center'><BotaoOrcamento /></p>
+                            <Contacts />
                         </div>
                     </div>
 

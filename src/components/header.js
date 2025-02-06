@@ -15,7 +15,7 @@ class Header extends React.Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Link to="/"><Nav.Link href="#home">Home</Nav.Link></Link>
-                        <Link to="/Contacts"><Nav.Link href="#link">Contatos</Nav.Link></Link>
+                        {/* <Link to="/Contacts"><Nav.Link href="#link">Contatos</Nav.Link></Link> */}
                         <Link to="/Services"><Nav.Link href="#link">Serviços</Nav.Link></Link>
                     </Nav>
                     <Nav><BotaoOrcamento /></Nav>

@@ -11,9 +11,9 @@ export default class Contacts extends React.Component {
     render() {
         return(
             <body>
-                <Header />
-                <Container className='index_container'>
-                    <div className='row'>
+                {/* <Header /> */}
+                <Container className='index_container container-contatcs'>
+                    {/* <div className='row'>
                         <Titulo title='Contatos'/>        
                         <ContactForm />
                     </div>
@@ -25,16 +25,17 @@ export default class Contacts extends React.Component {
                     <div className='row'>
                         <Titulo title='Informações de Contato'/>
                     </div>
+                    */}
 
                     <div className="row">
                         <div className="col-3 offset-md-2">
-                            <p><FaWhatsapp size="50px"/>&nbsp;<span className="text-marrom">+55 (11) 91655-0264</span> </p>
+                            <p><FaWhatsapp size="50px"/>&nbsp;<span className="text-marrom contact-text">+55 (11) 91655-0264</span> </p>
                         </div>
                         <div className="col-3">
-                            <p><MdOutlineEmail size="50px"/>&nbsp;<span className="text-marrom">odaraplanejados86@gmail.com</span> </p>
+                            <p><MdOutlineEmail size="50px"/>&nbsp;<span className="text-marrom contact-text">odaraplanejados86@gmail.com</span> </p>
                         </div>
                         <div className="col-3">
-                            <p><FaLocationDot size="50px"/>&nbsp;<span className="text-marrom">Cotia - SP</span> </p>
+                            <p><FaLocationDot size="50px"/>&nbsp;<span className="text-marrom contact-text">Cotia - SP</span> </p>
                         </div>
                     </div>
                 </Container>

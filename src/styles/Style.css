@@ -135,3 +135,130 @@ body {
     align-items: center;
     text-align: center;
 }
+
+.text-about {
+    font-size: 1.25rem !important;
+    width: 80% !important;
+    margin: auto;
+}
+
+.text-diferenciais {
+    font-size: 1.25rem;
+}
+
+.card-subtitle {
+    float: right;
+}
+
+.contact-text {
+    font-size: 14px;
+}
+
+
+.container-contatcs > .row  > .col-3 > p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.05rem;
+    line-height: 0.45rem;
+}
+
+/* Diferentes dispositivos */
+
+@media (max-width: 900px) {
+    .header_navbar  .logo {
+        width: 3em !important;
+    }
+
+    .logo {
+        width: 5em;
+    }
+    .h2 {
+        font-size: 18px !important;
+    }
+
+    .index_title {
+        display: flex;
+        flex-direction: column;
+        width: 92% !important;
+        padding-top: 1em !important;
+    }
+
+    #img_apresentacao_1 {
+        width: 90%;
+        height: 85%;
+        object-fit: cover;
+        border-radius: 5%;
+        box-shadow: -2px 2px 5px 3px #85685a;
+    }
+
+    .text-center {
+        width: 80% !important;
+        margin: auto;
+    }
+
+    .text-center .h4 {
+        font-size: 16px !important;
+    }
+
+    .text-about {
+        font-size: 0.74em !important;
+    }
+
+    .text-decoration-underline {
+        font-size: 16px !important;
+        padding-top: 2em; 
+    }
+    
+    .col-diferenciais {
+        max-width: 30% !important;
+    }
+
+    .text-diferenciais  {
+        font-size: 0.87rem ;
+    }
+
+    .containerCards {
+        flex-flow: row wrap;
+    }
+
+    .card {
+        gap: 1em;
+        width: 10rem !important;
+        height: auto;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .card-title {
+        font-size: 14px !important;
+        font-weight: 900;
+    }
+
+    .card-text {
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    .card-subtitle {
+        font-size: 10px !important;
+    }
+
+    .align-self-center > .h4 {
+        font-size: 0.75rem;
+    }
+
+    .container-contatcs > .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-contatcs > .row  > .col-3{
+        width: 33%;
+    }
+
+    .contact-text {
+        font-size: 0.55rem;
+        text-align: center;
+    }
+}

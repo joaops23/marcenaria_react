@@ -7,7 +7,7 @@ export default class ContactForm extends React.Component
     {
         return(
             <div className="row">
-                <Form action="#">
+                <Form action="#" >
                     <div className='row'>
                         <div className="col-5 padding-form">
                             {this.inputDefault({label: "Nome", id: "nome", type: "text", placeholder: "Digite seu nome"})}
