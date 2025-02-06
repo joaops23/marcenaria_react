@@ -261,4 +261,8 @@ body {
         font-size: 0.55rem;
         text-align: center;
     }
+
+    .carousel_item_title > h2 {
+        font-size: calc(.83rem + .7vw);
+    }
 }
