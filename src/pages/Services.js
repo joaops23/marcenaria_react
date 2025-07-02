@@ -12,7 +12,7 @@ export default class Services extends React.Component {
                 <Header />
                 <Container className='index_container'>
                     <div className='row'>
-                        <Titulo title='Serviços'/>
+                        <Titulo title='Portifólio'/>
                     </div>
 
                     <div className='row quebra_sessao'>

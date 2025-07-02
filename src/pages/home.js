@@ -48,11 +48,7 @@ class Home extends React.Component {
             
                     <div className='row'>
                         <Titulo title='Sobre nós'/>
-                        <p className='text-break fw-light lh-lg text-about'>&nbsp;&nbsp;Nos fundos de um quintal em Cotia-SP, Diego, um pai de família trabalhador, deu vida ao seu sonho de ter um negócio próprio. Com poucas ferramentas e muita determinação, ele transformou o pequeno espaço em uma oficina. Começou consertando móveis para vizinhos e logo conquistou sua comunidade com peças feitas com cuidado e alma.<br />&nbsp;&nbsp;Com o apoio da família e clientes, Diego expandiu sua marcenaria, que se tornou referência na região. Hoje, a Marcenaria dos Sonhos é um símbolo de trabalho duro e paixão, mantendo vivas as raízes simples de onde tudo começou.</p>
-                    </div>
-
-                    <div className='row'>
-                        <p className='text-break h4 fw-semibold lh-lg text-center text_verde_claro text-decoration-underline'>Mais de 6 anos de experiência transformando ideias em realidade.</p>
+                        <p className='text-break fw-light lh-lg text-about text-center'>&nbsp;&nbsp;Marcenaria Odara.<br></br>Transformamos seus sonhos em móveis exclusivos.&nbsp; Projetos personalizados em madeira maciça e MDF.&nbsp; Atendemos em São Paulo e Região. &nbsp; Entre em contato para um orçamento </p>
                     </div>
 
                     <div className='row quebra_sessao'>
