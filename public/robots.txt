@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
+# Optimization for Google Ads Bot
+User-agent: AdsBot-Google-Mobile
+User-agent: AdsBot-Google
+
 Sitemap: https://www.movelariaodara.com.br/sitemap.xml
